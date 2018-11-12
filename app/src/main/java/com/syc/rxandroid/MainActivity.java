@@ -17,9 +17,30 @@ public class MainActivity extends AppCompatActivity {
     /**
      * First way:
      * Call the create method
+     *
      * @param view
      */
-    public void createMethod(View view) {
+    public void createMethod1(View view) {
         RxUtils.createObserable();
+    }
+
+    public void createMethod2(View view) {
+        RxUtils.createPrint();
+    }
+
+    public void createMethod3(View view) {
+        RxUtils.from();
+    }
+
+    public void createMethod4(View view) {
+        RxUtils.interval();
+    }
+
+    public void createMethod5(View view) {
+        RxUtils.just();
+    }
+
+    public void createMethod6(View view) {
+        RxUtils.filter();
     }
 }

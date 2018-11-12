@@ -9,7 +9,36 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="createMethod"
-        android:text="create" />
+        android:onClick="createMethod1"
+        android:text="create1" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createMethod2"
+        android:text="create2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createMethod3"
+        android:text="from" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createMethod4"
+        android:text="interval" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createMethod5"
+        android:text="just" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createMethod6"
+        android:text="filter" />
 </LinearLayout>
