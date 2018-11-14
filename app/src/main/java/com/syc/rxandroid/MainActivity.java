@@ -14,12 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /**
-     * First way:
-     * Call the create method
-     *
-     * @param view
-     */
+
     public void createMethod1(View view) {
         RxUtils.createObserable();
     }
@@ -42,5 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void createMethod6(View view) {
         RxUtils.filter();
+    }
+
+    public void createMethod7(View view) {
     }
 }
